@@ -7,14 +7,14 @@ public class Calculator{
         char operator;
         Double number1, number2, result;
 
-        System.out.println("Choose an operator: +, -, *, or /");
+        System.out.println("Choose any operator: +, -, *, or /");
         operator = sc.next().charAt(0);
 
         // ask users to enter numbers
-        System.out.println("Enter first number");
+        System.out.println("Enter the first number");
         number1 = sc.nextDouble();
 
-        System.out.println("Enter second number");
+        System.out.println("Enter the second number");
         number2 = sc.nextDouble();
 
         switch (operator) {
