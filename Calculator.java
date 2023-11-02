@@ -33,6 +33,11 @@ public class Calculator{
                 result = mul.mul(number1, number2);
                 System.out.println(number1 + " * " + number2 + " = " + result);
                 break;    
+            case '/':
+                Division div = new Division();
+                result = div.divide(number1,number2);
+                System.out.println(number1 + " / " + number2 + " = " + result);
+                break;
 
             default:
                 System.out.println("Invalid operator!");
